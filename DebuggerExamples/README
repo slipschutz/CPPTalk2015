@@ -1,11 +1,21 @@
+###################################################
+## Read only after completing debugger examples ##
+###################################################
+
 Takeaways:
 
-factoring_code.c
+factoring_code.c (Runtime error)
 -----------------
 1. Segfaults signal the occurrence of undefined behavior. OS responds by killing the program.
 2. Error's may occur in code well before Segfault occurs.
 3. Single-stepping through a program using a debugger and breakpoints increase
    the understanding of program flow, and can help identify errors.
 
-pi.c
+pi.c (Hidden error)
 ----
+1. Sometimes errors in code do not raise a compiler error, OR a runtimer error (Segfault)
+2. Often many iterations must occur before an error that actually prevents further
+   execution to occur. These errors can be very tedious to identify with print statements
+   because the program flow might actually change with the addition of a simple print statement!"
+3. Conditional break points (and often together with print statements) can speed up diagnosis of 
+   the problem.
