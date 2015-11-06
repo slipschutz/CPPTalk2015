@@ -1,0 +1,11 @@
+Takeaways:
+
+factoring_code.c
+-----------------
+1. Segfaults signal the occurrence of undefined behavior. OS responds by killing the program.
+2. Error's may occur in code well before Segfault occurs.
+3. Single-stepping through a program using a debugger and breakpoints increase
+   the understanding of program flow, and can help identify errors.
+
+pi.c
+----
