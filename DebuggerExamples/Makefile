@@ -1,5 +1,5 @@
 CPP = g++
-CPPFlags = -std=c++11 -g -O0
+CPPFlags = -g -O0
 
 all: ex1 ex2 
 ex1:
