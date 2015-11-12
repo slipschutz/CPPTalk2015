@@ -60,5 +60,9 @@ int main(){
   Print(MyFirstVector);
 
 
+  //Assinging with initialization list like in C
+  MyFirstVector={3,326,236};
+  Print(MyFirstVector);
+
   return 0;
 }
