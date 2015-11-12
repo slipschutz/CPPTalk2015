@@ -1,7 +1,5 @@
 
 
-
-
 #include <iostream>
 #include <string>
 using namespace std;
@@ -12,7 +10,6 @@ using namespace std;
  *own functions that can change it's information
  *or do anything it wants
  */
-
 class GradStudent{
 public:
   int YearsLeftInProgram;
@@ -25,16 +22,14 @@ public:
 
 };
 
-
-
 int main(){
 
 
   //just like I can say
   int num;
   //Where I have made a variable num of type int
-  //I can say
 
+  //I can say
   GradStudent Sam;
   //Where I have made a variable Sam of type GradStudent
   //When you make a GradStudent people say of have made
