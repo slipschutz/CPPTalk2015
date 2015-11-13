@@ -64,5 +64,14 @@ int main(){
   MyFirstVector={3,326,236};
   Print(MyFirstVector);
 
+  
+  //To clean up a vector all you need to do is say clear
+  //No need to worry about explictly freeing up memory 
+  //The standard lilbrary will do that for you
+  MyFirstVector.clear();
+
+  //Now it should print nothing
+  Print(MyFirstVector);
+
   return 0;
 }
